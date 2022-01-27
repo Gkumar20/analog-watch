@@ -1,0 +1,65 @@
+:root{
+
+}
+
+#analog::before{
+    content: "";
+    background:url(img/watch2.png) center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 31vw;
+    height: 65vh;
+    top: 0vh;
+    left: 34vw;
+    z-index: -1;
+}
+.hand{
+    border: 2px solid black;
+    
+    transform-origin: bottom;
+    top: 100px;
+    position: absolute;
+    
+}
+#hour{
+    /* left: 10px; */
+    background: red;
+    top: 150px;
+    left: 755px;
+    width: 5px;
+    height: 100px;
+    
+}
+
+#min{
+    /* top: 110px; */
+    /* left: 50px; */
+    background: rgb(0, 255, 64);
+    top: 140px;
+    left: 755px;
+    width: 3px;
+    height: 110px;
+    
+}
+
+#sec{
+    /* left: 100px; */
+    background: rgb(228, 224, 8);
+    top: 130px;
+    left: 755px;
+    width: 1px;
+    height: 120px;
+    
+    /* animation: sanim 60s linear infinite; */
+    
+}
+
+
+/* @keyframes sanim{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    } */
+}
